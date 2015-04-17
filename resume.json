@@ -1,0 +1,123 @@
+{
+  "basics": {
+    "name": "Bakin Eugene",
+    "label": "software developer",
+    "picture": "",
+    "email": "bakin.eugene@gmail.com",
+    "phone": "+7 (965) 855 4136",
+    "website": "-",
+    "summary": "I'm from Chelyabinsk, Russian Federation. I have a Master degree in Applied Mathematics and Physics from South Ural State University. I tried to continue my career path in theoretical physics, but quickly understood that my passion is more in building things than in theory. So I moved to software engineering. I started with some freelance gigs - trying various things in software development - from creating javascript plugins to working with asterisk. Then I found my first work in web-development in small outsource company \"Inventix\". Then I switched jobs to work for Rugion - a company which has a number of regional web-portals all over the Russian Federation. My work focuses on both front-end and back-end (PHP, JavaScript). And my desire is to switch completely to front-end development (JavaScript, CSS, HTML).",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Chelyabinsk",
+      "countryCode": "RU",
+      "region": "Chelyabinsk oblast"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "eu96ne",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Rugion",
+      "position": "web developer",
+      "website": "http://rugion.ru",
+      "startDate": "2014-03-01",
+      "endDate": "",
+      "summary": "This is a big company that holds many regional sites in Russian Federation",
+      "highlights": [
+        "Built ExtJS based admin panel",
+        "Built email/sms campaign maker - with tracking all the steps from opening letter to buying something in e-shop",
+        "Integrated application with various payment gates (PayEx, WyWallet, MultiMobil, PayPal, 2irect2internet)",
+        "Tags: JavaScript, PHP"
+      ]
+    },
+    {
+      "company": "Inventix",
+      "position": "web developer",
+      "website": "http://inventix.ru",
+      "startDate": "2013-07-01",
+      "endDate": "2014-03-01",
+      "summary": "It is a small outsourcing company. I was working on admin part of marketing web-application for Sweden market. It was used to generate compact e-shops that would be embedded in regular web-sites or shown on mobile phone. I was working with everything related to it - from generating email sending campaign to using various payment gates.",
+      "highlights": [
+        "Built ExtJS based admin panel",
+        "Built email/sms campaign maker - with tracking all the steps from opening letter to buying something in e-shop",
+        "Integrated application with various payment gates (PayEx, WyWallet, MultiMobil, PayPal, 2irect2internet)",
+        "Tags: JavaScript, ExtJS, PHP"
+      ]
+    },
+    {
+      "company": "South Ural State University",
+      "position": "Engineer",
+      "website": "http://susu.ac.ru",
+      "startDate": "2011-02-01",
+      "endDate": "2013-04-01",
+      "summary": "I was working on a software for computing distribution of stresses in metal targets under severe temperature treatments (radiated using beams of electrons or ions)",
+      "highlights": [
+        "Built NetCDF based db for storing computed data",
+        "Refactored codebase to switch compiler and system (from windows to gfortran/linux, from Fortran 70 to fortran 2003)",
+        "Built visualisation program based on python/matplotlib",
+        "Tags: Fortran, Python, Linux, NetCDF"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "South Ural State University",
+      "area": "Applied Mathematics and Physics",
+      "studyType": "Master",
+      "startDate": "2005-09-01",
+      "endDate": "2011-07-01",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development (Front end)",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Web Development (Back end)",
+      "level": "Advanced",
+      "keywords": [
+        "PHP",
+        "Python"
+      ]
+    },
+    {
+      "name": "DB",
+      "level": "Advanced",
+      "keywords": [
+        "MySQL",
+        "Cassandra",
+        "Solr"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Good"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
