@@ -1,83 +1,103 @@
 <!doctype html>
-
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{basics.name}} : Basic HTML resume</title>
+	</head>
+	<body>
+		<section class="about">
+			<h1>About me</h1>
+			<section class="general">
+				<h1>General</h1>
+				<dl>
+					<dt>Name</dt>
+					<dd>{{basics.name}}</dd>
 
-<head>
-<meta charset="utf-8">
-<title>{{basics.name}} : Basic HTML resume</title>
-</head>
+					<dt>Profession</dt>
+					<dd>{{basics.label}}</dd>
+					
+					<dt>Location</dt>
+					<dd>{{basics.location.country}},  {{basics.location.region}},  {{basics.location.city}} </dd>
+				</dl>
+			</section>
+			<section class="contacts">
+				<h1>Contacts</h1>
+				<dl>
+					<dt>E-mail</dt>
+					<dd>{{basics.email}}</dd>
 
-<body>
+					<dt>Phone</dt>
+					<dd>{{basics.phone}}</dd>
 
-<section class="about">
-  <section class="general">
-    <h1>General</h1>
-    <dl>
-      <dt>Name</dt>
-      <dd>{{basics.name}}</dd>
+					<dt>Website</dt>
+					<dd>{{basics.website}}</dd>
 
-      <dt>Profession</dt>
-      <dd>{{basics.label}}</dd>
-      
-      <dt>Location</dt>
-      <dd>{{basics.location.countryCode}} {{basics.location.city}} </dd>
-    </dl>
-  </section>
-  <section class="contacts">
-    <h1>Contacts</h1>
-    <dl>
-      <dt>E-mail</dt>
-      <dd>{{basics.email}}</dd>
+					{{basics.profiles}}
+						<dt>{{network}}</dt>
+						<dd><a href="{{url}}">{{username}}</a></dd>
+					{{/basics.profiles}}
+				</dl>
+			</section>
+			<section class="skills">
+				<h1>Skills</h1>
+				{{skills}}
+					<dt>{{name}}</dt>
+					<dd class="level">Level: {{level}};</dd>
+					<dd class="keywords">
+						<ul>
+							{{tags}}
+								<li>{{.}}</li>
+							{{/tags}}
+							</ul>
+					</dd>
+				{{/skills}}
+			</section>
+			<section class="languages">
+				<h1>Languages</h1>
+				{{languages}}
+					<dt>{{language}}</dt>
+					<dd>{{fluency}}<dd>
+				{{/languages}}
+			</section>
+			<section class="education">
+				<h1>Education</h1>
+				<ul>
+					{{basics.education}}
+					<dt>{{institution}}</dt>
+					<dd>
+						<span class="education__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
+						<span class="education__type">{{studyType}} : {{area}}</span>
+					</dd>
+					{{/basics.education}}
+				</ul>
+			</section>
+		</section>
+		<h1>Work</h1>
+		<section class="work">
+			<ul>
+				{{companies}}
+					<li class="company">
+						<h2 class="company__name">{{if website}}<a href="{{website}}">{{/if}}{{company}}{{if website}}</a>{{/if}}</h2>
+						<span class="company__position">{{position}}</span>
+						<span class="company__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
+						<div class="company__summary">{{summary}}</div>
 
-      <dt>Phone</dt>
-      <dd>{{basics.phone}}</dd>
-
-      <dt>Website</dt>
-      <dd>{{basics.website}}</dd>
-
-      {{basics.profiles}}
-        <dt>{{network}}</dt>
-        <dd>{{username}}</dd>
-      {{/basics.profiles}}
-    </dl>
-  </section>
-  <section class="skills">
-    <h1>Skills</h1>
-    {{skills}}
-      <dt>{{name}}</dt>
-      <dd class="level">Level: {{level}};</dd>
-      <dd class="keywords">
-        <ul>
-          {{keywords}}
-            <li>{{.}}</li>
-          {{/keywords}}
-        </ul>
-      </dd>
-    {{/skills}}
-  </section>
-  <section class="languages">
-    <h1>Languages</h1>
-    {{languages}}
-      <dt>{{language}}</dt>
-      <dd>{{fluency}}<dd>
-    {{/languages}}
-  </section>
-</section>
-<section class="work">
-  <ul>
-    <li></li>
-  </ul>
-</section>
-<section class="projects">
-  <ul>
-    <li></li>
-  </ul>
-</section>
-<section class="education">
-  <ul>
-    <li></li>
-  </ul>
-</section>
-
-</body>
+						<ul class="company__projects">
+							{{projects}}
+								<li class="company__projects__project">
+								<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
+									<div>{{description}}</div>
+									<ul>
+										{{tags}}
+											<li>{{.}}</li>
+										{{/tags}}
+									</ul>
+								</li>
+							{{/projects}}
+						</ul>
+					</li>
+				{{/companies}}
+			</ul>
+		</section>
+	</body>
 </html>
