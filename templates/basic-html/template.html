@@ -18,6 +18,11 @@
 			{
 			  max-width: 1024px;
 			}
+
+			.summary
+			{
+			  padding: 20px;
+			}
 		</style>
 		<section class="about">
 			<h1>About me</h1>
@@ -34,6 +39,9 @@
 					<dd>{{basics.location.country}},  {{basics.location.region}},  {{basics.location.city}} </dd>
 				</dl>
 			</section>
+			<div class="summary">
+				{{basics.summary}}
+			</div>
 			<section class="contacts">
 				<h1>Contacts</h1>
 				<dl>
