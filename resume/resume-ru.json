@@ -8,9 +8,9 @@
         "website": "-",
         "summary": "Я из города Челябинска. Я закончил Южно-Уральский Государственный Университет по специальности 'Прикладная математика и физика'. С первых курсов я хотел заниматься разработкой ПО, но по окончании решил попробовать начать карьеру в аспирантуре, поскольку определенная доля разработки была и там, но постепенно понял, что на данном этапе душа у меня больше лежит к коду, чем к теоретической физике. Я начал с фриланса - занимался разнообразными задачками от написания JavaScript плагинов до настройки Asterisk для кол-центра. Свою первую постоянную работу в Веб-разработке я получил в небольшой аутсорсинговой компании \"Inventix\". Сейчас я работаю в группе компаний Ругион (владйющей множеством крупных региональных порталов). Занимаюсь разработкой и обслуживанием сайтов компании. Моя работа затрагивает как серверную, так и клиентскую часть (PHP, JavaScript). Но в данный момент я хотел бы полностью переключиться на фронт-енд.",
         "location": {
-            "city": "Chelyabinsk",
-            "country": "Russian Federation",
-            "region": "Chelyabinsk oblast"
+            "city": "Челябинск",
+            "country": "Россия",
+            "region": "Челябинская область"
         },
         "profiles": [
             {
@@ -21,9 +21,9 @@
         ],
         "education": [
             {
-                "institution": "South Ural State University",
-                "area": "Applied Mathematics and Physics",
-                "studyType": "Master",
+                "institution": "Южно-Уральский Государственный Университет",
+                "area": "Прикладная математика и физика",
+                "studyType": "Магистр",
                 "startDate": "2005-09-01",
                 "endDate": "2011-07-01"
             }
@@ -32,15 +32,15 @@
     "companies": [
         {
             "company": "Rugion",
-            "position": "Web Developer",
+            "position": "",
             "website": "http://rugion.ru",
             "startDate": "2014-03-01",
             "endDate": null,
-            "summary": "This is a big company that owns many regional sites in Russian Federation. (74.ru, autochel.ru, mychel.ru, etc). Aside from constant work on improvement of codebase and refactoring i am trying to increase code coverage with tests. I am part of a group working on following services: Multimedia, News, Affiche, Blogs, etc",
+            "summary": "Это крупная компания, влдающая множеством крупных городских/региональных порталов (74.ru, autochel.ru, mychel.ru, ...). Я работаю в группе отвечающей за функционирование сервисов Новостей, городской афиши, блогов, форумов, мультимедийных сервисов.",
             "projects": [
                 {
-                    "name": "Internal News Management System",
-                    "description": "I took part in redesign, reorganization amd refactoring of internal news management system. News writers, redactors and managers use it to prepare and publish articles on multiple company owned sites.",
+                    "name": "система администрирования новостей",
+                    "description": "Я участвовал в редизайне, реорганизации и рефакторинге админки новостей. Ей пользуются авторы, фотографы и редакторы для создания материалов выкладываемых на многочисленных сайтах компании.",
                     "website": null,
                     "tags": [
                         "JavaScript",
@@ -48,8 +48,8 @@
                     ]
                 },
                 {
-                    "name": "Affiche",
-                    "description": "This is a service to show a list of events that currently available in your city. Currently a complete redesign is taking place and all the code is beeing rewritten completely. Cassandra + Solr is used for DB",
+                    "name": "Афиша",
+                    "description": "Это сервис, отображающий список интересных событий в городе. Для хранения данных используется Cassandra + Solr.",
                     "website": "http://mychel.ru/afisha",
                     "tags": [
                         "JavaScript",
@@ -63,15 +63,15 @@
         },
         {
             "company": "Inventix",
-            "position": "Web Developer",
+            "position": "Разработчик",
             "website": "http://inventix.ru",
             "startDate": "2013-07-01",
             "endDate": "2014-03-01",
-            "summary": "It is a small outsourcing company. ",
+            "summary": "Небольшая компания, занимающаяся аутсорсом",
             "projects": [
                 {
                     "name": "Penny-This",
-                    "description": "I was working on admin part of marketing web-application for Sweden market. It is used to generate compact e-shops that would be embedded in regular web-sites or shown on mobile phone. I was working with everything related to it - from generating email sending campaign to integrating with various payment gates.",
+                    "description": "Я работал над админкой веб-приложения для шведского рынка. I was working on admin part of marketing web-application for Sweden market. It is used to generate compact e-shops that would be embedded in regular web-sites or shown on mobile phone. I was working with everything related to it - from generating email sending campaign to integrating with various payment gates.",
                     "website": "http://app.penny-this.com",
                     "tags": [
                         "JavaScript",
