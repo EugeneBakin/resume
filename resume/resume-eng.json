@@ -2,7 +2,7 @@
     "basics": {
 	"experience": "2 years (since 2013)", 
         "name": "Bakin Eugene",
-        "label": "software developer",
+        "label": "Software Developer",
         "picture": "",
         "email": "bakin.eugene@gmail.com",
         "phone": "+7 (965) 855 4136",
@@ -50,7 +50,7 @@
                 },
                 {
                     "name": "Affiche",
-                    "description": "This is a service to show a list of events that currently available in your city. Currently a complete redesign is taking place and all the code is beeing rewritten completely. Cassandra + Solr is used for DB",
+                    "description": "This is a service to show a list of events that currently available in your city. Cassandra + Solr is used for DB",
                     "website": "http://mychel.ru/afisha",
                     "tags": [
                         "JavaScript",
