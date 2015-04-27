@@ -72,9 +72,11 @@
 
 					<dt>{{i18.phone|blank>Phone}}</dt>
 					<dd>{{basics.phone}}</dd>
-
-					<dt>{{i18.website|blank>Website}}</dt>
-					<dd>{{basics.website}}</dd>
+					
+					{{if basics.website}}
+						<dt>{{i18.website|blank>Website}}</dt>
+						<dd>{{basics.website}}</dd>
+					{{/if}}
 
 					{{basics.profiles}}
 						<dt>{{network}}</dt>

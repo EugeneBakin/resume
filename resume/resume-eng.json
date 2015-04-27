@@ -6,7 +6,7 @@
         "picture": "",
         "email": "bakin.eugene@gmail.com",
         "phone": "+7 (965) 855 4136",
-        "website": "-",
+        "website": null,
         "summary": "I'm from Chelyabinsk, Russian Federation. I have a Master degree in Applied Mathematics and Physics from South Ural State University. I tried to continue my career path in theoretical physics, but quickly understood that my passion is more in building things than in theory. So I moved to software engineering. I started with some freelance gigs - trying various things in software development - from creating javascript plugins to working with asterisk. Then I found my first work in web-development in small outsource company \"Inventix\". Then I switched jobs to work for Rugion - a company which has a number of regional web-portals all over the Russian Federation. My work focuses on both front-end and back-end (PHP, JavaScript). And my desire is to switch completely to front-end development (JavaScript, CSS, HTML).",
         "location": {
             "city": "Chelyabinsk",
