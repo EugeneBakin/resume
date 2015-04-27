@@ -71,7 +71,7 @@
             "projects": [
                 {
                     "name": "Penny-This",
-                    "description": "Я работал над админкой веб-приложения для шведского рынка. I was working on admin part of marketing web-application for Sweden market. It is used to generate compact e-shops that would be embedded in regular web-sites or shown on mobile phone. I was working with everything related to it - from generating email sending campaign to integrating with various payment gates.",
+                    "description": "Работал над админкой веб-приложения для шведского рынка. Оно испольуется для генерации небольших электронных магазинов для отображения на сайте внутри iframe или на экране телефона. В том числе я занимался генератором смс/почтовых рассылок и интеграцией с различными платежными системами.",
                     "website": "http://app.penny-this.com",
                     "tags": [
                         "JavaScript",
@@ -83,16 +83,16 @@
             ]
         },
         {
-            "company": "South Ural State University",
-            "position": "Engineer",
+            "company": "Южно-Уральский Государственный Универститет",
+            "position": "Лаборант-исследователь/инжинер",
             "website": "http://susu.ac.ru",
             "startDate": "2011-02-01",
             "endDate": "2013-04-01",
-            "summary": "This was my first job after graduation. I was working part time as a post-grad student on a software project related to my study. But then I had to leave that job due to low salary and unmet expectations.",
+            "summary": "Моя первая работа после выпуска из университета. Заключалась в получении и анализе расчетных данных, связаных с моей учебой в аспирантуре. Вскоре я понял, что я хочу от работы других вещей и начал искать себя в разработке програмного обеспечения.",
             "projects": [
                 {
                     "name": "BTIW2c",
-                    "description": "Software product for computing stresses and deformation in targets under severe temperature treatments. I refactored existing code to work under Linux/gfortran. Built a database based on NetCDF to store computed data and visualisation program based on python/matplotlib to plot and analyze it.",
+                    "description": "Програмный продукт предназначенный для вычисления напряжений и деформаций в мишенях, подверженных воздействию мощного потока излучения/ионов/электронов. В рамках своей работы я, в том числе, отрефакторил код для работы под другим компилятором/ОС. Написал визуализатор на основе matplotlib, для отображения промежуточных данных расчета. Срезы данных сохранялись в базу на основе NetCDF",
                     "tags": [
                         "Fortran",
                         "Python",
@@ -105,8 +105,8 @@
     ],
     "skills": [
         {
-            "name": "Web Development (Front end)",
-            "level": "Advanced",
+            "name": "Веб разработка (фронт-енд)",
+            "level": "4/5",
             "tags": [
                 "HTML",
                 "CSS",
@@ -114,16 +114,16 @@
             ]
         },
         {
-            "name": "Web Development (Back end)",
-            "level": "Advanced",
+            "name": "Веб разработка (бек-енд)",
+            "level": "4/5",
             "tags": [
                 "PHP",
                 "Python"
             ]
         },
         {
-            "name": "DB",
-            "level": "Average",
+            "name": "Базы Данных",
+            "level": "3/5",
             "tags": [
                 "MySQL",
                 "Cassandra",
@@ -133,12 +133,12 @@
     ],
     "languages": [
         {
-            "language": "English",
-            "fluency": "Good"
+            "language": "Английский",
+            "fluency": "Разговорный"
         },
         {
-            "language": "Russian",
-            "fluency": "Native"
+            "language": "Русский",
+            "fluency": "Родной"
         }
     ]
 }
