@@ -7,16 +7,16 @@
         "email": "bakin.eugene@gmail.com",
         "phone": "+7 (965) 855 4136",
         "website": null,
-        "summary": "I'm from Chelyabinsk, Russian Federation. I have a Master degree in Applied Mathematics and Physics from South Ural State University. I tried to continue my career path in theoretical physics, but quickly understood that my passion is more in building things than in theory. So I moved to software engineering. I started with some freelance gigs - trying various things in software development - from creating javascript plugins to working with asterisk. Then I found my first work in web-development in small outsource company \"Inventix\". Then I switched jobs to work for Rugion - a company which has a number of regional web-portals all over the Russian Federation. My work focuses on both front-end and back-end (PHP, JavaScript). And my desire is to switch completely to front-end development (JavaScript, CSS, HTML).",
+        "summary": "I have a Master degree in Applied Mathematics and Physics from South Ural State University. I continued my career path in theoretical physics, but quickly understood that my passion is more in building things. So I moved to software engineering. I started with some freelance gigs - trying various things from creating javascript plugins to working with Asterisk (Phone System). I found my first work in web-development in outsource company \"Inventix\". Then I switched jobs to work for Rugion - a company which has a number of regional web-portals all over the Russian Federation. My work focuses on both front-end and back-end (PHP, JavaScript). And my desire is to switch completely to front-end development (JavaScript, CSS, HTML).",
         "location": {
             "city": "Chelyabinsk",
             "country": "Russian Federation",
-            "region": "Chelyabinsk oblast"
+            "region": "Chelyabinsk region"
         },
         "profiles": [
             {
                 "network": "Twitter",
-                "username": "eu96ne",
+                "username": "@eu96ne",
                 "url": "https://twitter.com/eu96ne"
             }
         ],
@@ -37,10 +37,10 @@
             "website": "http://rugion.ru",
             "startDate": "2014-03-01",
             "endDate": null,
-            "summary": "This is a big company that owns many regional sites in Russian Federation. (74.ru, autochel.ru, mychel.ru, etc). Aside from constant work on improvement of codebase and refactoring i am trying to increase code coverage with tests. I am part of a group working on following services: Multimedia, News, Affiche, Blogs, etc",
+            "summary": "This is a big company that owns many regional sites in Russian Federation. (74.ru, autochel.ru, mychel.ru, etc). I am part of a group working on following services: Multimedia, News, Affiche, Blogs, etc",
             "projects": [
                 {
-                    "name": "Internal News Management System",
+                    "name": "Internal News Management System (CMS)",
                     "description": "I took part in redesign, reorganization amd refactoring of internal news management system. News writers, redactors and managers use it to prepare and publish articles on multiple company owned sites.",
                     "website": null,
                     "tags": [
@@ -50,7 +50,7 @@
                 },
                 {
                     "name": "Affiche",
-                    "description": "This is a service to show a list of events that currently available in your city. Cassandra + Solr is used for DB",
+                    "description": "This is a service to show a list of events that currently available in your city. Right now it's under reconsruction and redesign. Cassandra + Solr is used for DB",
                     "website": "http://mychel.ru/afisha",
                     "tags": [
                         "JavaScript",
@@ -68,7 +68,7 @@
             "website": "http://inventix.ru",
             "startDate": "2013-07-01",
             "endDate": "2014-03-01",
-            "summary": "It is a small outsourcing company. ",
+            "summary": "An outsourcing company.",
             "projects": [
                 {
                     "name": "Penny-This",
