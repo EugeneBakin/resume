@@ -17,6 +17,8 @@ if ( jsonName && templateName )
 
 					var Mark = require( "markup-js" );
 
+					Mark.globals = dataObject.globals;
+
 					var result = Mark.up( template, dataObject );
 
 					fs.writeFile( "result.html", result, function ( err )

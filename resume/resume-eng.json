@@ -1,4 +1,21 @@
 {
+    "globals": {
+      "i18_about": "About",
+      "i18_general": "General",
+      "i18_name": "Name",
+      "i18_profession": "Profession",
+      "i18_location": "Location",
+      "i18_contacts": "Contacts",
+      "i18_mail": "E-mail",
+      "i18_phone": "Phone",
+      "i18_website": "Web-site",
+      "i18_skills": "Skills",
+      "i18_languages": "Languages",
+      "i18_education": "Education",
+      "i18_work": "Work",
+			"i18_experience": "Work Experience",
+			"i18_level": "Level"
+    },
     "basics": {
 	"experience": "2 years (since 2013)", 
         "name": "Bakin Eugene",

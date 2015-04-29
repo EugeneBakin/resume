@@ -1,19 +1,20 @@
 {
-    "i18": {
-      "about": "Обо мне",
-      "general": "Основное",
-      "name": "Имя",
-      "profession": "Профессия",
-      "location": "Местонахождение",
-      "contacts": "Контакты",
-      "mail": "Почта",
-      "phone": "Телефон",
-      "website": "Сайт",
-      "skills": "Навыки",
-      "languages": "Языки",
-      "education": "Образование",
-      "work": "Работа",
-      "experience": "Стаж" 
+    "globals": {
+      "i18_about": "Обо мне",
+      "i18_general": "Основное",
+      "i18_name": "Имя",
+      "i18_profession": "Профессия",
+      "i18_location": "Местонахождение",
+      "i18_contacts": "Контакты",
+      "i18_mail": "Почта",
+      "i18_phone": "Телефон",
+      "i18_website": "Сайт",
+      "i18_skills": "Навыки",
+      "i18_languages": "Языки",
+      "i18_education": "Образование",
+      "i18_work": "Работа",
+			"i18_experience": "Стаж",
+			"i18_level": "Уровень"
     },
     "basics": {
 	"experience": "2 года (с 2013)",
