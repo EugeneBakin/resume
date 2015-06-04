@@ -1,0 +1,18 @@
+section section {
+	display:inline-block;
+	vertical-align:top;
+	width:45%;
+	border-top:1px solid gray;
+}
+
+html {
+	max-width:1024px;
+}
+
+.summary {
+	padding:20px;
+}
+
+.avatar {
+	float:right;
+}
