@@ -41,7 +41,7 @@
 					} else {
 						Mark.globals = resumeData.globals;
 
-						fse.writeFile( path + '/' + pathExt.basename( item, EXTENSION_MARKUP ) + '.html', Mark.up( template, resumeData ), function ( err )	{
+						fse.writeFile( path + '/' + pathExt.basename( item, EXTENSION_MARKUP ) + EXTENSION_HTML, Mark.up( template, resumeData ), function ( err )	{
 							if ( err ) {
 								console.log( err );
 							} else {
