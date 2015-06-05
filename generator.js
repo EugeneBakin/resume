@@ -11,14 +11,13 @@
 	var EXTENSION_MARKUP = '.markup';
 
 	var fse = require( 'fs-extra' );
-  var pathExt = require('path');
+	var pathExt = require('path');
 	var Mark = require( "markup-js" );
 
 	function generateResumes () {
 		walk( JSON_DIR, function (item, path, fullPath) {
 			if ( pathExt.extname(item) === EXTENSION_JSON ) {
-				fse.readFile( fullPath, 'utf8', function ( err, data )
-				{
+				fse.readFile( fullPath, 'utf8', function ( err, data ) {
 					if ( err ) {
 						console.log( err );
 					} else {
@@ -65,7 +64,7 @@
 				files.forEach(function(item) {
 					var filePath = path + '/' + item;
 					fse.stat(filePath, function (err, stats) {
-					
+
 						if (stats.isDirectory()) {
 							walk(filePath, callback);
 						}
@@ -73,17 +72,10 @@
 						if (stats.isFile()) {
 							callback(item, path, filePath);
 						}
-					
+
 					});
 				});
 			}
 		})
 	}
-
-
-var jsonName = process.argv[2];
-var templateName = process.argv[3];
-if ( jsonName && templateName )
-{
-}
 } ());
