@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="./css/main.css">
-<link rel="stylesheet" href="./css/print.css">
-<title>{{basics.name}} : Basic HTML resume</title>
-</head>
-<body>
-<section class="about">
-	<h1>{{i18_about|blank>About me}}</h1>
-	<img class="avatar" src="./../img/avatar.jpeg"></img>
-	<section class="general">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/print.css">
+		<title>{{basics.name}} : Basic HTML resume</title>
+	</head>
+	<body>
+		<section class="about">
+		<h1>{{i18_about|blank>About me}}</h1>
+		<img class="avatar" src="./../img/avatar.jpeg"></img>
+		<section class="general">
 		<h1>{{i18_general|blank>General}}</h1>
 		<dl>
 			<dt>{{i18_name|blank>Name}}</dt>
@@ -25,11 +25,11 @@
 			<dt>{{i18_experience|blank>Work Experience}}</dt>
 			<dd>{{basics.experience}}</dd>
 		</dl>
-	</section>
-	<div class="summary">
-		{{basics.summary}}
-	</div>
-	<section class="contacts">
+		</section>
+		<div class="summary">
+			{{basics.summary}}
+		</div>
+		<section class="contacts">
 		<h1>{{i18_contacts|blank>Contacts}}</h1>
 		<dl>
 			<dt>{{i18_mail|blank>E-mail}}</dt>
@@ -48,8 +48,8 @@
 			<dd><a href="{{url}}">{{username}}</a></dd>
 			{{/basics.profiles}}
 		</dl>
-	</section>
-	<section class="skills">
+		</section>
+		<section class="skills">
 		<h1>{{i18_skills|blank>Skills}}</h1>
 		{{skills}}
 		<dt>{{name}}</dt>
@@ -62,15 +62,15 @@
 		</ul>
 		</dd>
 		{{/skills}}
-	</section>
-	<section class="languages">
+		</section>
+		<section class="languages">
 		<h1>{{i18_languages|blank>Languages}}</h1>
 		{{languages}}
 		<dt>{{language}}</dt>
 		<dd>{{fluency}}<dd>
 		{{/languages}}
-	</section>
-	<section class="education">
+		</section>
+		<section class="education">
 		<h1>{{i18_education|blank>Education}}</h1>
 		<ul>
 			{{basics.education}}
@@ -81,34 +81,34 @@
 			</dd>
 			{{/basics.education}}
 		</ul>
-	</section>
-</section>
-<h1>{{i18_work|blank>Work}}</h1>
-<section class="work">
-	<ul>
-		{{companies}}
-		<li class="company">
-		<h2 class="company__name">{{if website}}<a href="{{website}}">{{/if}}{{company}}{{if website}}</a>{{/if}}</h2>
-		<span class="company__position">{{position}}</span>
-		<span class="company__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
-		<div class="company__summary">{{summary}}</div>
+		</section>
+		</section>
+		<h1>{{i18_work|blank>Work}}</h1>
+		<section class="work">
+		<ul>
+			{{companies}}
+			<li class="company">
+			<h2 class="company__name">{{if website}}<a href="{{website}}">{{/if}}{{company}}{{if website}}</a>{{/if}}</h2>
+			<span class="company__position">{{position}}</span>
+			<span class="company__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
+			<div class="company__summary">{{summary}}</div>
 
-		<ul class="company__projects">
-			{{projects}}
-			<li class="company__projects__project">
-			<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
-			<div>{{description}}</div>
-			<ul>
-				{{tags}}
-				<li>{{.}}</li>
-				{{/tags}}
+			<ul class="company__projects">
+				{{projects}}
+				<li class="company__projects__project">
+				<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
+				<div>{{description}}</div>
+				<ul>
+					{{tags}}
+					<li>{{.}}</li>
+					{{/tags}}
+				</ul>
+				</li>
+				{{/projects}}
 			</ul>
 			</li>
-			{{/projects}}
+			{{/companies}}
 		</ul>
-		</li>
-		{{/companies}}
-	</ul>
-</section>
-</body>
+		</section>
+	</body>
 </html>
