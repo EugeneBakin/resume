@@ -8,6 +8,7 @@
 
 	var EXTENSION_HTML = '.html';
 	var EXTENSION_JSON = '.json';
+	var EXTENSION_MARKUP = '.markup';
 
 	var fse = require( 'fs-extra' );
   var pathExt = require('path');
@@ -33,14 +34,14 @@
 
 	function generateResume ( resumeName, resumeDir, resumeData ) {
 		walk( resumeDir, function(item, path, fullPath) {
-			if ( pathExt.extname(item) === EXTENSION_HTML ) {			
+			if ( pathExt.extname(item) === EXTENSION_MARKUP ) {			
 				fse.readFile( fullPath, 'utf8', function ( err, template ) {
 					if ( err ) {
 						console.log ( err );
 					} else {
 						Mark.globals = resumeData.globals;
 
-						fse.writeFile( fullPath, Mark.up( template, resumeData ), function ( err )	{
+						fse.writeFile( path + '/' + pathExt.basename( item, EXTENSION_MARKUP ) + '.html', Mark.up( template, resumeData ), function ( err )	{
 							if ( err ) {
 								console.log( err );
 							} else {
