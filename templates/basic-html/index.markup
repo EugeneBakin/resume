@@ -33,14 +33,14 @@
 				<h1>{{i18_contacts|blank>Contacts}}</h1>
 				<dl>
 					<dt>{{i18_mail|blank>E-mail}}</dt>
-					<dd>{{basics.email}}</dd>
+					<dd><a href="mailto:{{basics.email}}">{{basics.email}}</a></dd>
 
 					<dt>{{i18_phone|blank>Phone}}</dt>
 					<dd>{{basics.phone}}</dd>
 
 					{{if basics.website}}
 					<dt>{{i18_website|blank>Website}}</dt>
-					<dd>{{basics.website}}</dd>
+					<dd><a href="{{basics.website}}">{{basics.website}}</a></dd>
 					{{/if}}
 
 					{{basics.profiles}}
