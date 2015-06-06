@@ -58,7 +58,7 @@
 			"projects": [
 				{
 					"name": "Internal News Management System (CMS)",
-					"description": "I took part in redesign, reorganization amd refactoring of internal news management system. News writers, redactors and managers use it to prepare and publish articles on multiple company owned sites.",
+					"description": "I took part in redesign, reorganization and refactoring of internal news management system. News writers, redactors and managers use it to prepare and publish articles on multiple company owned sites.",
 					"website": null,
 					"tags": [
 						"JavaScript",
