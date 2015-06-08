@@ -40,8 +40,9 @@
 		"education": [
 			{
 				"institution": "South Ural State University",
+				"website": "http://susu.ac.ru",
 				"area": "Applied Mathematics and Physics",
-				"studyType": "Master",
+				"degree": "Master",
 				"startDate": "2005-09-01",
 				"endDate": "2011-07-01"
 			}
@@ -123,40 +124,54 @@
 	],
 	"skills": [
 		{
-			"name": "Web Development (Front end)",
-			"level": "Advanced",
-			"tags": [
-				"HTML",
-				"CSS",
-				"Javascript"
-			]
+			"name": "HTML",
+			"level": "4/5",
+			"group": "Front End"
 		},
 		{
-			"name": "Web Development (Back end)",
-			"level": "Advanced",
-			"tags": [
-				"PHP",
-				"Python"
-			]
+			"name": "CSS",
+			"level": "4/5",
+			"group": "Front End"
 		},
 		{
-			"name": "DB",
-			"level": "Average",
-			"tags": [
-				"MySQL",
-				"Cassandra",
-				"Solr"
-			]
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"fluency": "Good"
+			"name": "JavaScript",
+			"level": "4/5",
+			"group": "Front End"
 		},
 		{
-			"language": "Russian",
-			"fluency": "Native"
+			"name": "PHP",
+			"level": "4/5",
+			"group": "Back End"
+		},
+		{
+			"name": "Python",
+			"level": "4/5",
+			"group": "Back End"
+		},
+		{
+			"name": "MySQL",
+			"level": "3/5",
+			"group": "DB"
+		},
+		{
+			"name": "Cassandra",
+			"level": "3/5",
+			"group": "DB"
+		},
+		{
+			"name": "Solr",
+			"level": "3/5",
+			"group": "DB"
+		},
+		{
+			"name": "English",
+			"level": "4/5",
+			"group": "Spoken Languages"
+		},
+		{
+			"name": "Russian",
+			"level": "5/5",
+			"group": "Spoken Languages"
 		}
 	]
 }

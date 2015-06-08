@@ -40,8 +40,9 @@
 		"education": [
 			{
 				"institution": "Южно-Уральский Государственный Университет",
+				"website": "http://susu.ac.ru",
 				"area": "Прикладная математика и физика",
-				"studyType": "Магистр",
+				"degree": "Магистр",
 				"startDate": "2005-09-01",
 				"endDate": "2011-07-01"
 			}
@@ -123,40 +124,54 @@
 	],
 	"skills": [
 		{
-			"name": "Веб разработка (фронт-енд)",
+			"name": "HTML",
 			"level": "4/5",
-			"tags": [
-				"HTML",
-				"CSS",
-				"Javascript"
-			]
+			"group": "Front End"
 		},
 		{
-			"name": "Веб разработка (бек-енд)",
+			"name": "CSS",
 			"level": "4/5",
-			"tags": [
-				"PHP",
-				"Python"
-			]
+			"group": "Front End"
 		},
 		{
-			"name": "Базы Данных",
+			"name": "JavaScript",
+			"level": "4/5",
+			"group": "Front End"
+		},
+		{
+			"name": "PHP",
+			"level": "4/5",
+			"group": "Back End"
+		},
+		{
+			"name": "Python",
+			"level": "4/5",
+			"group": "Back End"
+		},
+		{
+			"name": "MySQL",
 			"level": "3/5",
-			"tags": [
-				"MySQL",
-				"Cassandra",
-				"Solr"
-			]
-		}
-	],
-	"languages": [
-		{
-			"language": "Английский",
-			"fluency": "Разговорный"
+			"group": "DB"
 		},
 		{
-			"language": "Русский",
-			"fluency": "Родной"
+			"name": "Cassandra",
+			"level": "3/5",
+			"group": "DB"
+		},
+		{
+			"name": "Solr",
+			"level": "3/5",
+			"group": "DB"
+		},
+		{
+			"name": "Английский язык",
+			"level": "4/5",
+			"group": "Spoken Languages"
+		},
+		{
+			"name": "Русский язык",
+			"level": "5/5",
+			"group": "Spoken Languages"
 		}
 	]
 }
