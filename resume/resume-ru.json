@@ -17,7 +17,8 @@
 		"i18_level": "Уровень"
 	},
 	"basics": {
-		"experience": "2 года (с 2013)",
+		"startedWorkingText": "с 2013",
+		"startedWorking": "2013",
 		"name": "Бакин Евгений",
 		"label": "Разработчик",
 		"picture": "",

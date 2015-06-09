@@ -23,7 +23,7 @@
 					<dd>{{basics.location.country}},  {{basics.location.region}},  {{basics.location.city}} </dd>
 
 					<dt>{{i18_experience|blank>Work Experience}}</dt>
-					<dd>{{basics.experience}}</dd>
+					<dd><time datetime="{{basics.startedWorking}}">{{basics.startedWorkingText}}</time></dd>
 				</dl>
 			</section>
 			<section class="contacts">

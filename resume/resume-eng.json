@@ -17,7 +17,8 @@
 		"i18_level": "Level"
 	},
 	"basics": {
-		"experience": "2 years (since 2013)", 
+		"startedWorkingText": "since 2013", 
+		"startedWorking": "2013",
 		"name": "Bakin Eugene",
 		"label": "Software Developer",
 		"picture": "",
