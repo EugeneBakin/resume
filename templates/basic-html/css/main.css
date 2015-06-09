@@ -1,9 +1,37 @@
-section section {
-	display:inline-block;
-	vertical-align:top;
-	width:45%;
-	border-top:1px solid gray;
+.avatar {
+	float: right;
 }
+
+.general, .contacts {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+.general dt,
+.contacts dt {
+	margin-top: 15px;
+}
+
+.skills__list {
+	list-style: none;
+	max-width: 800px;
+}
+
+.skills__list__item {
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+.skills__list__item__name {
+	font-weight: bold;
+}
+
+.skills__list__item__level {
+	font-style: italic;
+}
+
 
 html {
 	max-width:1024px;
@@ -11,8 +39,51 @@ html {
 
 .summary {
 	padding:20px;
+	line-height: 1.5
 }
 
-.avatar {
-	float:right;
+dt {
+	font-weight: bold;
 }
+
+ul {
+	list-style: none;
+}
+
+.tags {
+	margin: 10px;
+	padding: 0;
+}
+
+.tags__list {
+	display: inline;
+	padding: 20px;
+}
+
+.tags__list:before {
+	content: "[";
+}
+
+.tags__list:after {
+	content: "]";
+}
+
+.tags__list__item {
+	display: inline;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.tags__list__item:after {
+	content: ',';
+}
+
+.tags__list__item:last-of-type:after {
+	content: '';
+}
+
+
+.work > ul {
+	padding-left: 10px;
+}
+

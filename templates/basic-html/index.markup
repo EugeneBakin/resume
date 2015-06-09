@@ -52,9 +52,11 @@
 		</header>
 		<section class="skills">
 			<h1>{{i18_skills|blank>Skills}}</h1>
-			<ul>
+			<ul class="skills__list">
 				{{skills}}
-				<li>{{name}} : {{level}}</li>
+				<li class="skills__list__item">
+					<span class=skills__list__item__name>{{name}}</span> : <span class="skills__list__item__level">{{level}}</span>
+				</li>
 				{{/skills}}
 			</ul>
 		</section>
@@ -73,11 +75,14 @@
 						<li class="company__projects__project">
 							<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
 							<div>{{description}}</div>
-							<ul>
-								{{tags}}
-								<li>{{.}}</li>
-								{{/tags}}
-							</ul>
+							<div class="tags">
+								<span>{{i18_skills|blank>Skills}}: </span>
+								<ul class="tags__list">
+									{{tags}}
+									<li class="tags__list__item">{{.}}</li>
+									{{/tags}}
+								</ul>
+							</div>
 						</li>
 						{{/projects}}
 					</ul>
