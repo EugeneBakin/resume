@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1.5em;
 }
 
-@media screen and (max-device-width: 1060px) {
+@media screen and (max-width: 1060px) {
 	body {
 		padding: 20px;
 	}
