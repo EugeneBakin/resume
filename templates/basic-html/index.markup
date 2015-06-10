@@ -60,7 +60,7 @@
 				{{/skills}}
 			</ul>
 		</section>
-		<section class="work">
+		<section class="work u__whole">
 			<h1>{{i18_work|blank>Work}}</h1>
 			<ul>
 				{{companies}}
