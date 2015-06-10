@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="./css/print.css">
 		<title>{{basics.name}} : Basic HTML resume</title>
 	</head>
-	<body>
+	<body class="d__mw u__centerW">
 		<header>
 			<h1>{{i18_about|blank>About me}}</h1>
 			<img class="avatar" src="./../img/avatar.jpeg"></img>
@@ -47,7 +47,7 @@
 				</dl>
 			</section>
 			<section class="summary">
-				<p class="u__lh">{{basics.summary}}</p>
+				<p class="d__lh">{{basics.summary}}</p>
 			</section>
 		</header>
 		<section class="skills">
@@ -68,13 +68,13 @@
 					<h2 class="company__name">{{if website}}<a href="{{website}}">{{/if}}{{company}}{{if website}}</a>{{/if}}</h2>
 					<span class="company__position">{{position}}</span>
 					<span class="company__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
-					<div class="company__summary"><p class="u__lh">{{summary}}</p></div>
+					<div class="company__summary"><p class="d__lh">{{summary}}</p></div>
 
 					<ul class="company__projects">
 						{{projects}}
 						<li class="company__projects__project u__whole">
 							<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
-							<p class="u__lh">{{description}}</p>
+							<p class="d__lh">{{description}}</p>
 							<div class="tags">
 								<span>{{i18_skills|blank>Skills}}: </span>
 								<ul class="tags__list">

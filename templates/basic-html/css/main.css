@@ -1,4 +1,12 @@
-.u__lh {
+.u__centerW {
+	margin: 0 auto;
+}
+
+.d__mw {
+	max-width:1024px;
+}
+
+.d__lh {
 	line-height: 1.5
 }
 
@@ -36,10 +44,6 @@
 	font-style: italic;
 }
 
-
-html {
-	max-width:1024px;
-}
 
 .summary {
 	padding:20px;
