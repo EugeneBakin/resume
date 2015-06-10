@@ -8,14 +8,11 @@
 	</head>
 	<body class="d__mw u__centerW">
 		<header>
-			<h1>{{i18_about|blank>About me}}</h1>
-			<img class="avatar" src="./../img/avatar.jpeg"></img>
+			<h1>{{basics.name}}</h1>
+			<img class="avatar" src="./../img/avatar.jpeg" alt="{{basics.name}}"></img>
 			<section class="general">
 				<h1>{{i18_general|blank>General}}</h1>
 				<dl>
-					<dt>{{i18_name|blank>Name}}</dt>
-					<dd>{{basics.name}}</dd>
-
 					<dt>{{i18_profession|blank>Profession}}</dt>
 					<dd>{{basics.label}}</dd>
 
