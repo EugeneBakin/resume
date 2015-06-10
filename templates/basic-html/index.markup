@@ -60,6 +60,19 @@
 				{{/skills}}
 			</ul>
 		</section>
+		<section class="education">
+			<h1>{{i18_education|blank>Education}}</h1>
+			<ul>
+				{{basics.education}}
+				<li class="education">
+					<h2 class="education__name">{{if website}}<a href="{{website}}">{{/if}}{{institution}}{{if website}}</a>{{/if}}</h2>
+					<span class="education__degree">{{degree}}</span>
+					<span class="education__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
+					<div class="education__type">{{area}}</div>
+				</li>
+				{{/basics.education}}
+			</ul>
+		</section>
 		<section class="work u__whole">
 			<h1>{{i18_work|blank>Work}}</h1>
 			<ul>
@@ -88,19 +101,6 @@
 					</ul>
 				</li>
 				{{/companies}}
-			</ul>
-		</section>
-		<section class="education">
-			<h1>{{i18_education|blank>Education}}</h1>
-			<ul>
-				{{basics.education}}
-				<li class="education">
-					<h2 class="education__name">{{if website}}<a href="{{website}}">{{/if}}{{institution}}{{if website}}</a>{{/if}}</h2>
-					<span class="education__degree">{{degree}}</span>
-					<span class="education__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
-					<div class="education__type">{{area}}</div>
-				</li>
-				{{/basics.education}}
 			</ul>
 		</section>
 	</body>
