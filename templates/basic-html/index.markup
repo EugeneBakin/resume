@@ -47,7 +47,7 @@
 				</dl>
 			</section>
 			<section class="summary">
-				{{basics.summary}}
+				<p class="u__lh">{{basics.summary}}</p>
 			</section>
 		</header>
 		<section class="skills">
@@ -68,13 +68,13 @@
 					<h2 class="company__name">{{if website}}<a href="{{website}}">{{/if}}{{company}}{{if website}}</a>{{/if}}</h2>
 					<span class="company__position">{{position}}</span>
 					<span class="company__time">{{startDate}} {{if endDate}}- {{endDate}}{{/if}}</span>
-					<div class="company__summary">{{summary}}</div>
+					<div class="company__summary"><p class="u__lh">{{summary}}</p></div>
 
 					<ul class="company__projects">
 						{{projects}}
-						<li class="company__projects__project">
+						<li class="company__projects__project u__whole">
 							<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
-							<div>{{description}}</div>
+							<p class="u__lh">{{description}}</p>
 							<div class="tags">
 								<span>{{i18_skills|blank>Skills}}: </span>
 								<ul class="tags__list">

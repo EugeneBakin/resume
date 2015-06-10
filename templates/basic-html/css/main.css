@@ -1,3 +1,7 @@
+.u__lh {
+	line-height: 1.5
+}
+
 .avatar {
 	float: right;
 }
@@ -39,7 +43,6 @@ html {
 
 .summary {
 	padding:20px;
-	line-height: 1.5
 }
 
 dt {

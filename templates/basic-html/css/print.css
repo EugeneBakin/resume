@@ -73,4 +73,8 @@
 	a:link:after, a:visited:after { 
 		content:" [" attr(href) "] ";
 	}
+
+	.u__whole {
+		page-break-inside: avoid;
+	}
 }
