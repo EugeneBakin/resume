@@ -83,7 +83,7 @@
 					<ul class="company__projects">
 						{{projects}}
 						<li class="company__projects__project u__whole">
-							<h3>{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
+							<h3 class="company__projects__project__name">{{if website}}<a href="{{website}}">{{/if}}{{name}}{{if website}}</a>{{/if}}</h3>
 							<p class="d__lh">{{description}}</p>
 							<div class="tags">
 								<span>{{i18_skills|blank>Skills}}: </span>

@@ -1,3 +1,8 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+
 ul {
 	list-style: none;
 	padding-left: 1em;
@@ -64,8 +69,8 @@ dt {
 }
 
 .tags__list {
-	display: inline;
-	padding: 20px;
+	display: block;
+	padding: 0;
 }
 
 .tags__list:before {
@@ -97,8 +102,8 @@ dt {
 
 
 h1, h2, h3, h4, h5, h6 {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
 }
 
 @media screen and (max-width: 1060px) {
@@ -111,8 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 .company__projects__project {
 	display: inline-block;
 	width: 49%;
-	padding: 15px;
-	border: 1px grey solid;
+	padding: 0.5em;
 	min-width: 350px;
 }
 
@@ -122,4 +126,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .company__projects__project:nth-child(2n) {
 	width: 49%;
+}
+
+.company__projects__project__name {
+	margin-top: 0;
+}
+
+.company__name {
+	margin-bottom: 0;
+}
+
+.company__position,
+.company__time{
+	font-size: small;
+	color: grey;
 }
