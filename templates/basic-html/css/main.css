@@ -14,15 +14,15 @@ ul {
 }
 
 a {
-  color: #005684;
+	color: #005684;
 }
 
 a:visited {
-  color: #0AA9FF;
+	color: #0AA9FF;
 }
 
 a:hover {
-  color: #FF3900;
+	color: #FF3900;
 }
 
 .u__centerW {
@@ -60,6 +60,7 @@ a:hover {
 .skills__list__item {
 	display: inline-block;
 	width: 30%;
+	min-width: 140px;
 	margin-bottom: 1.5em;
 }
 
