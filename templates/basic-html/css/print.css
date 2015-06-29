@@ -4,8 +4,12 @@
 		color: black !important; 
 		text-shadow: none !important; 
 		filter:none !important;
-		-ms-filter: none !important; 
-	} 
+		-ms-filter: none !important;
+	}
+
+	html {
+		font-family: Georgia, Times, “Times New Roman”, serif;	
+	}	
 
 	/* Black prints faster: sanbeiji.com/archives/953 */
 	p a, p a:visited { 

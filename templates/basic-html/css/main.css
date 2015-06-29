@@ -2,10 +2,27 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-family: Ubuntu,Calibri,"Lucida Grande","Lucida Sans",Verdana,sans-serif;
+	color: #012538;
+	background-color: #FAFAFA;
+}
 
 ul {
 	list-style: none;
 	padding-left: 1em;
+}
+
+a {
+  color: #005684;
+}
+
+a:visited {
+  color: #0AA9FF;
+}
+
+a:hover {
+  color: #FF3900;
 }
 
 .u__centerW {
@@ -17,7 +34,7 @@ ul {
 }
 
 .d__lh {
-	line-height: 1.5
+	line-height: 1.6
 }
 
 .avatar {
@@ -42,8 +59,8 @@ ul {
 
 .skills__list__item {
 	display: inline-block;
-	width: 200px;
-	margin-bottom: 20px;
+	width: 30%;
+	margin-bottom: 1.5em;
 }
 
 .skills__list__item__name {
@@ -117,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 49%;
 	padding: 0.5em;
 	min-width: 350px;
+	vertical-align: top;
 }
 
 .company__projects__project:last-child {
